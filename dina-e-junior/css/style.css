@@ -1,0 +1,85 @@
+body {
+    height: 100%;
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* navbar config */
+
+#cor-nome-topo {
+    color: white;
+}
+
+#cor-nome-topo:hover {
+    color: rgb(129, 123, 123);
+}
+
+#menu-header li {
+    text-decoration: none;
+}
+
+#menu-header li a {
+    color: white;
+}
+
+#menu-header li a:hover {
+    color: rgb(129, 123, 123);
+}
+
+/* section center config */
+
+#section-color {
+    background-color: black;
+}
+
+.btn-custom {
+    color: black;
+    background: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    transition: background 0.4s, color 0.4s;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.btn-custom:hover {
+    background-color: rgb(137, 141, 145);
+    color: black;
+}
+
+.btn-social {
+    color: white;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.btn-social:hover {
+    color: rgb(137, 141, 145);
+    text-decoration: none;
+}
+
+/* Section apresentações */
+
+#apresentacoes {
+    margin-top: 40px;
+    background-image: url(../img/backgroundInformacoes.jpg);
+    background-size: 1280px;
+    background-repeat: no-repeat;
+}
+
+.evento-nome h1 {
+    text-shadow: 0.2em 0.2em 0.2em black;
+}
+
+.evento-data {
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+/* footer config */
+
+.contato li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
